@@ -1,0 +1,9 @@
+/**
+ * Hides settings that cannot be otherwise disabled for now.
+ */
+
+/** Hides the heading 1 button */
+.components-button[data-subscript="1"],
+.components-button[aria-label="Heading 1"] {
+    display: none;
+}
